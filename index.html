@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ada Kejutan Untukmu!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="landing">
+  <div class="flowers" id="flowers"></div>
+
+  <main class="container">
+    <p class="subtitle">✨ Sebuah Kejutan ✨</p>
+    <h1>Halo, <span class="nama"></span>!</h1>
+    <p class="lead">Ada sesuatu yang spesial menunggumu hari ini.<br>Klik hadiahnya untuk membuka!</p>
+
+    <div class="gift" id="gift" role="button" tabindex="0" aria-label="Buka hadiah">
+      <div class="gift-lid"></div>
+      <div class="gift-body"></div>
+    </div>
+
+    <button id="openBtn">🎁 Buka Kejutan</button>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="flowers.js"></script>
+  <script src="landing.js"></script>
+</body>
+</html>
